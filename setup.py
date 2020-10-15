@@ -23,8 +23,8 @@ setup(
     author_email='friedrich@pudo.org',
     url='http://github.com/pudo/normality',
     license='MIT',
-    package_data={'banal': ['py.typed']},
-    packages=find_packages(exclude=['ez_setup', 'examples', 'test']),
+    package_data={'normality': ['py.typed']},
+    packages=["normality"],
     namespace_packages=[],
     include_package_data=True,
     zip_safe=False,
@@ -44,5 +44,5 @@ setup(
             'pytest'
         ]
     },
-    test_suite='test',
+    test_suite='tests',
 )
